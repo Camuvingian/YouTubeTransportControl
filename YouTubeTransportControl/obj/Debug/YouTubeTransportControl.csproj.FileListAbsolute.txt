@@ -1,0 +1,11 @@
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\bin\Debug\YouTubeTransportControl.dll
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\bin\Debug\YouTubeTransportControl.pdb
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl_MarkupCompile.cache
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl_MarkupCompile.lref
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\VideoTransportControlStyle.baml
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl.g.resources
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl.csproj.CoreCompileInputs.cache
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl.dll
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl.pdb
+F:\Camus\YouTubeTransportControl\YouTubeTransportControl\obj\Debug\YouTubeTransportControl.csprojResolveAssemblyReference.cache
