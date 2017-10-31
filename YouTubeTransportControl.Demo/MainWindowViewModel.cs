@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Windows.Input;
+using System.Windows.Media;
 
 namespace YouTubeTransportControl.Demo
 {
@@ -10,6 +12,23 @@ namespace YouTubeTransportControl.Demo
 		{
 			TimelineDuration = new TimeSpan(0, 77, 21);
 			TimelinePositionString = "Timeline Position = <Not Set>";
+		}
+
+		private ICommand changeBackgroundCommand;
+
+		public ICommand ChangeBackgroundCommand
+		{
+			get
+			{
+				if (changeBackgroundCommand == null)
+				{
+					changeBackgroundCommand = new RelayCommand(o =>
+					{
+						BackgroundBrush = new SolidColorBrush(Colors.WhiteSmoke);
+					});
+				}
+				return changeBackgroundCommand;
+			}
 		}
 
 		public event PropertyChangedEventHandler PropertyChanged;
@@ -56,5 +75,14 @@ namespace YouTubeTransportControl.Demo
 			get { return timelineDuration; }
 			set { SetField(ref timelineDuration, value, "TimelineDuration"); }
 		}
+
+		private SolidColorBrush backgroundBrush = new SolidColorBrush(Colors.DarkSlateGray);
+
+		public SolidColorBrush BackgroundBrush
+		{
+			get { return backgroundBrush; }
+			set { SetField(ref backgroundBrush, value, "BackgroundBrush"); }
+		}
+
 	}
 }
